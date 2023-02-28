@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import car4 from "../public/assets/car4.jpg";
 
 const Guaranteed = () => {
   return (
@@ -26,7 +27,7 @@ const Guaranteed = () => {
         <div className="bg-yellow-400">
           <div className="h-full">
             <Image
-              src="/../public/assets/car4.jpg"
+              src={car4}
               width={300}
               height={100}
               className="w-full h-full"

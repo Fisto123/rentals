@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import car1 from "../public/assets/car1.jpg";
 
 const Plan = () => {
   return (
@@ -111,7 +112,7 @@ const Plan = () => {
       <div className="hidden md:block w-full mt-10">
         <div className="h-full">
           <Image
-            src="/../public/assets/car1.jpg"
+            src={car1}
             width={300}
             height={100}
             className="w-full h-[70vh] mt-10"

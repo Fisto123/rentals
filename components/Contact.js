@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import trump from "../public/assets/trump.jpg";
 
 const Contact = () => {
   return (
@@ -55,11 +56,7 @@ const Contact = () => {
         <div className="col-span-2  p-5 w-full text-center items-center gap-8">
           <div className="w-full shadow-lg">
             <div className="flex">
-              <Image
-                src="/../public/assets/trump.jpg"
-                width={300}
-                height={100}
-              />
+              <Image src={trump} width={300} height={100} />
               <div className="flex flex-col p-4">
                 <h5 className="w-full  text-black text-xl py-10">
                   IYIOLA OLUWAFISAYO

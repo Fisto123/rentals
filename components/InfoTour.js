@@ -6,9 +6,12 @@ const InfoTour = () => {
       <div className="grid md:grid-cols-2 gap-4">
         <div className="  ">
           <video controls className="w-full h-[50vh] z-0 opacity-5 ">
-            <source src="..Videos/video1.mp4" type="video/mp4" />
+            <source
+              src="https://www.youtube.com/watch?v=AjaGmTVBIfI"
+              type="video/mp4"
+            />
           </video>
-          {/* <source src="https://www.youtube.com/watch?v=AjaGmTVBIfI"></source> */}
+          \{" "}
         </div>
         <div className="">
           <h2 className="font-bold text-4xl text-left px-2">

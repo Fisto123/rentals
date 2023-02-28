@@ -1,12 +1,17 @@
 import Image from "next/image";
 import React, { useState } from "react";
+import car1 from "../public/assets/car1.jpg";
+import car2 from "../public/assets/car2.jpg";
+import car3 from "../public/assets/car3.webp";
+import car4 from "../public/assets/car4.jpg";
+import vehicle3 from "../public/assets/vehicle3.jpg";
 
 const Glance = () => {
   const vehicles = [
     {
       id: 0,
       name: "VW Golf VII",
-      image: "/../public/assets/vehicle3.jpg",
+      image: car1,
       Price: "$ 37.40 rent per day",
       Model: "	Limousine",
       Doors: 4,
@@ -18,7 +23,7 @@ const Glance = () => {
     {
       id: 1,
       name: "Audi A1 S-LINE",
-      image: "/../public/assets/car1.jpg",
+      image: car2,
       Price: "$ 27.40 rent per day",
       Model: "	Toyota Camry",
       Doors: 5,
@@ -30,7 +35,7 @@ const Glance = () => {
     {
       id: 2,
       name: "BMW 320 ModernLine",
-      image: "/../public/assets/car2.jpg",
+      image: car3,
       Price: "$ 57.40 rent per day",
       Model: "	Limousine",
       Doors: 4,
@@ -42,7 +47,7 @@ const Glance = () => {
     {
       id: 3,
       name: "Mercedes-Benz GLK",
-      image: "/../public/assets/car3.webp",
+      image: car4,
       Price: "$ 37.40 rent per day",
       Model: "	Limousine",
       Doors: 6,
@@ -54,7 +59,7 @@ const Glance = () => {
     {
       id: 4,
       name: "Range Rovers GLK",
-      image: "/../public/assets/car4.jpg",
+      image: vehicle3,
       Price: "$ 37.40 rent per day",
       Model: "	Limousine",
       Doors: 14,
@@ -66,7 +71,7 @@ const Glance = () => {
     {
       id: 5,
       name: "Ijapa Nigerian",
-      image: "/../public/assets/car1.jpg",
+      image: car1,
       Price: "$ 17.40 rent per day",
       Model: "	Limousine",
       Doors: 1,
